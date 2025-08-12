@@ -203,12 +203,12 @@ donates:
         # URL to the Patreon page
         url: ''
     # Paypal donate button configurations
-    -
-        type: paypal
-        # Paypal business ID or email address
-        business: ''
-        # Currency code
-        currency_code: USD
+    # -
+    #     type: paypal
+    #     # Paypal business ID or email address
+    #     business: ''
+    #     # Currency code
+    #     currency_code: USD
     # Wechat donate button configurations
     -
         type: wechat
@@ -219,7 +219,7 @@ donates:
 share:
     type: sharethis
     # URL to the ShareThis share plugin script
-    install_url: ''
+    install_url: 'https://platform-api.sharethis.com/js/sharethis.js#property=689ab9712267bb153a8cff56&product=sticky-share-buttons'
 # Sidebar configurations.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
