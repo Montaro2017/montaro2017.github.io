@@ -111,7 +111,7 @@ navbar:
         标签: /tags
     # Links to be shown on the right of the navigation bar
     links:
-        Download on GitHub:
+        GitHub:
             icon: fab fa-github
             url: https://github.com/montaro2017
 # Page footer configurations
