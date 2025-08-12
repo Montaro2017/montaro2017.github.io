@@ -165,21 +165,19 @@ search:
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 comment:
-    type: gitalk
-    client_id: Ov23liCnrk4csxUJiOZq
-    client_secret: 3fd97a0676764798eeb60159528c33adbef31d1a
-    repo: montaro2017.github.io
-    owner: montaro2017
-    admin:
-        - montaro2017
-    per_page: 20                    # 可选填
-    distraction_free_mode: false    # 可选填
-    pager_direction: last           # 可选填
-    create_issue_manually: false    # 可选填
-    proxy:                          # 可选填
-    flip_move_options:              # 可选填
-    enable_hotkey: true             # 可选填
-    language: zh-CN                 # 可选填
+    type: giscus
+    repo: Montaro2017/montaro2017.github.io                   # 必填项
+    repoId: R_kgDOPb08hg             # 必填项
+    category: Announcements          # 可选填，默认为 Announcements
+    categoryId: DIC_kwDOPb08hs4CuFG0 # 必填项
+    mapping: pathname                # 可选填，默认为 pathname
+    strict: false                    # 可选填
+    reactionsEnabled: false          # 可选填
+    emitMetadata: false              # 可选填
+    inputPosition: top               # 可选填，默认为 top
+    theme: preferred_color_scheme    # 可选填
+    lang: zh-CN                      # 可选填，默认为 en
+    lazy: true                       # 可选填，默认为 false
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 donates:
