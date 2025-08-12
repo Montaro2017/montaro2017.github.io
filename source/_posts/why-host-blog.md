@@ -1,7 +1,10 @@
 ---
 title: 为什么要自建博客
-tags:
+categories: 
   - 奇思妙想
+tags:
+  - Hexo
+  - 博客
 date: 2025-08-11 13:54:32
 ---
 
