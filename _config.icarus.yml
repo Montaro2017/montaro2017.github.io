@@ -164,9 +164,21 @@ search:
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 comment:
-    type: disqus
-    # Disqus shortname
-    shortname: ''
+    type: gitalk
+    client_id: Ov23liCnrk4csxUJiOZq
+    client_secret: 3fd97a0676764798eeb60159528c33adbef31d1a
+    repo: montaro2017.github.io
+    owner: montaro2017
+    admin:
+        - montaro2017
+    per_page: 20                    # 可选填
+    distraction_free_mode: false    # 可选填
+    pager_direction: last           # 可选填
+    create_issue_manually: false    # 可选填
+    proxy:                          # 可选填
+    flip_move_options:              # 可选填
+    enable_hotkey: true             # 可选填
+    language: zh-CN                 # 可选填
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 donates:
@@ -344,7 +356,7 @@ plugins:
     # https://tongji.baidu.com
     baidu_analytics:
         # Baidu Analytics tracking ID
-        tracking_id: 
+        tracking_id: 86c0897689847de4d8bb8615e1a4c94b
     # Bing Webmaster Tools plugin settings
     # https://www.bing.com/toolbox/webmaster/
     bing_webmaster:
@@ -352,7 +364,7 @@ plugins:
         tracking_id: 
     # BuSuanZi site/page view counter
     # https://busuanzi.ibruce.info
-    busuanzi: false
+    busuanzi: true
     # CNZZ statistics
     # https://www.umeng.com/web
     cnzz:
