@@ -42,6 +42,8 @@ npm install --save hexo-auto-excerpt
 
 ### 魔改插件
 
+既然插件无法满足需求，那就自己魔改一下插件。
+
 插件代码很简单，只有20多行。
 
 ```javascript
