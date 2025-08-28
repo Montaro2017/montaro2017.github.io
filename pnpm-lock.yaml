@@ -38,9 +38,6 @@ importers:
       hexo-generator-tag:
         specifier: ^2.0.0
         version: 2.0.0
-      hexo-hot-config:
-        specifier: ^1.0.0
-        version: 1.0.0
       hexo-migrator-rss:
         specifier: ^1.1.0
         version: 1.1.0
@@ -80,6 +77,10 @@ importers:
       semver:
         specifier: ^7.7.2
         version: 7.7.2
+    devDependencies:
+      hexo-hot-config:
+        specifier: ^1.0.1
+        version: 1.0.1
 
 packages:
 
@@ -1206,8 +1207,8 @@ packages:
     resolution: {integrity: sha512-1px/hF3veEohWDN8jjzchQhaiz+uOStUvvMaBJC9vWOlALh30UFcapL8IrvAwwJZjFRVA+WqGgDRqoQ8+yaaFw==}
     engines: {node: '>=14'}
 
-  hexo-hot-config@1.0.0:
-    resolution: {integrity: sha512-Jid2tO2PYGGZMQ0Qg5GuJxDEGBLSGRayqG74o1pyXQ3gv8EP6ktoI5lWee1r/+6HacNSe3alzNYmA5wFqcz9ow==}
+  hexo-hot-config@1.0.1:
+    resolution: {integrity: sha512-dUIVPcsqqs+viUQyJkgiawoW9ohcQkcGqgG1FPBe9b6iaFuO01s8QMhlyEQuCFk0c55YlNyapvjDF4qFWKqHOg==}
     engines: {hexo: '>= 5.3.0', node: '>= 14.0.0'}
 
   hexo-i18n@2.0.0:
@@ -3401,7 +3402,7 @@ snapshots:
     dependencies:
       hexo-pagination: 3.0.0
 
-  hexo-hot-config@1.0.0:
+  hexo-hot-config@1.0.1:
     dependencies:
       chokidar: 3.6.0
       hexo-util: 3.3.0
