@@ -315,15 +315,17 @@ widgets:
         amount: 
         # Whether to show tags count, i.e. number of posts in the tag.
         show_count: true
-    # Google FeedBurner email subscription widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: subscribe_email
-        # Hint text under the email input
-        description: 
-        # Feedburner ID
-        feedburner_id: ''
+    # Follow.it email subscription widget configurations
+    # -
+    #     # Where should the widget be placed, left sidebar or right sidebar
+    #     position: left
+    #     type: followit
+    #     # Hint text under the email input
+    #     description: ''
+    #     # Subscription form action URL
+    #     action_url: 'https://api.follow.it/subscription-form/RkxpTnNSWWFFUVUwYjZBaWMybUZKTy9vR01TT1hjWTkvV01ROGtWOTJtNjNPTmMzeEtxK212eFpndFNxZHdSeVJ3WW1VbDJLVWJUVTRUTS9qVU42WE5zaEU2T2pFM3dEejFnYjVkL09nTGMzNmpWb1VRNnFSYmF2ZmtuOWh3SnF8YklHL1oxaENMZTVzNTgrWHpMMHJBa0VKRnBOK3lMaS9TVGw0UllNM1RxOD0=/8'
+    #     # Feed claiming verification code
+    #     verification_code: ''
     # Google AdSense unit configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
