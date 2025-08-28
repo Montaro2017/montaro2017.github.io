@@ -1,5 +1,5 @@
 ---
-title: elasticsearch环境安装
+title: ElasticSearch、Kibana的安装
 toc: true
 tags:
   - elasticsearch
