@@ -1,5 +1,6 @@
 ---
 title: EPUB文件格式简单解析
+toc: true
 tags:
   - EPUB
 categories:
